@@ -10,7 +10,7 @@ import { Navbar } from "@/src/components/shared/Navbar";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-[#070a0f] overflow-x-hidden">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <StatsSection />
