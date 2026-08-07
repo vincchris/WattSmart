@@ -41,8 +41,8 @@ def load_artifacts():
     print("✅ Model loaded:")
     print(f"   model_kwh_hari  — best iteration: {meta['best_iterations']['kwh_hari']}")
     print(f"   model_kw_jam    — best iteration: {meta['best_iterations']['kw_jam']}")
-    print(f"   R² kwh_hari val : {meta['metrics']['kwh_hari']['val']:.4f}")
-    print(f"   R² kwh_hari test: {meta['metrics']['kwh_hari']['test']:.4f}")
+    print(f"   R² kwh_hari val : {meta['metrics']['kwh_hari']['val']['r2']:.4f}")
+    print(f"   R² kwh_hari test: {meta['metrics']['kwh_hari']['test']['r2']:.4f}")
 
     return model_day, model_jam, scaler, meta
 
